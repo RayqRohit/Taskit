@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <>
-            <Nav title={` Hey ${currentUser.displayName.split(' ')[0] || 'user'},👋🏼`}>
+            <Nav  title={` Hey ${currentUser.displayName.split(' ')[0] || 'user'},👋🏼`}>
                 <Button
                     icon="create_new_folder"
                     onClick={() => {
