@@ -8,7 +8,6 @@
     "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
     "firebase": "^9.23.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
@@ -19,6 +18,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
     "babel-eslint": "^10.1.0",
+    "dotenv": "^16.4.5",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "^8.3.0",
