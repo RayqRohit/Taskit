@@ -8,6 +8,8 @@ import {getAuth, GoogleAuthProvider, onAuthStateChanged,
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDbEzRit_AgUvWRojvE7RSHs1uGuruLFiU",
