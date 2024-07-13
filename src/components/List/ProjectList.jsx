@@ -43,6 +43,14 @@ const reducer = (state, action) => {
                       )
                     : 0;
 
+                const design = tasksKeys.length
+                    ? tasksKeys.reduce(
+                          (prevValue, currentValue) =>
+                              tasks[currentValue].tags.design ? prevValue + 1 : prevValue,
+                          0
+                      )
+                    : 0;
+
                 const { title, description, id } = action.value[key];
 
                 const completeRate = completedItem ? (completedItem * 100) / tasksKeys.length : 0;
@@ -52,7 +60,7 @@ const reducer = (state, action) => {
                     description,
                     id,
                     completeRate,
-                    info: tasksKeys.length ? { research, dev, debug } : null,
+                    info: tasksKeys.length ? { research, dev, debug, design } : null,
                     status: completeRate < 100 ? 'pending' : 'completed',
                 };
             });

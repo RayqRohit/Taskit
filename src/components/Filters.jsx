@@ -20,6 +20,10 @@ const tags = [
         name: 'debug',
         color: 'red',
     },
+    {
+        name : 'design',
+        color: 'yellow',
+    }
 ];
 
 const statuses = [

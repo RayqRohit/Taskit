@@ -25,6 +25,12 @@ const CardInfo = ({ info }) => {
                     color: 'red',
                     value: info.debug,
                 },
+                {
+                    name: 'design',
+                    icon: 'palette',
+                    color: 'yellow',
+                    value: info.design,
+                }
             ]);
         }
 

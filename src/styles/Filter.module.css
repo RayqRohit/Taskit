@@ -47,6 +47,50 @@ body[data-theme="dark"] .filter_wrapper::-webkit-scrollbar-thumb:hover {
     background-color: transparent;
     border: 1px solid transparent;
 }
+
+.filter_item[data-color="yellow"] {
+    border-color: #FFFF00;
+    color: var(--fontcolor);
+}
+.filter_item[data-color="yellow"] > div.filter_icon {
+    background-color: #FFFF00;
+}
+.filter_item[data-color="yellow"] > span.filter_icon {
+    color: #FFFF00;
+}
+.filter_item[data-color="yellow"]:hover {
+    background-color: #F4CE14;
+}
+.filter_item[data-color="yellow"]:hover > div.filter_icon {
+    background-color: var(--background);
+}
+.filter_item[data-color="yellow"]:hover > span.filter_icon {
+    color: var(--background);
+}
+.filter_item[data-color="yellow"][data-active="true"] {
+    background-color: #FFFF00;
+    color: #f9f9f9;
+}
+.filter_item[data-color="yellow"][data-active="true"] > div.filter_icon {
+    background-color: var(--background);
+}
+.filter_item[data-color="yellow"][data-active="true"] > span.filter_icon {
+    color: var(--background);
+}
+.filter_item[data-color="yellow"][data-active="true"]:hover {
+    background-color: #F4CE14;
+}
+body[data-theme="dark"] .filter_item[data-color="yellow"] {
+    color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
 .filter_item[data-color="blue"] {
     border-color: #007bec;
     color: var(--fontcolor);
@@ -82,6 +126,8 @@ body[data-theme="dark"] .filter_wrapper::-webkit-scrollbar-thumb:hover {
 body[data-theme="dark"] .filter_item[data-color="blue"] {
     color: #f9f9f9;
 }
+
+
 .filter_item[data-color="green"] {
     border-color: #0db00a;
     color: var(--fontcolor);
@@ -117,6 +163,8 @@ body[data-theme="dark"] .filter_item[data-color="blue"] {
 body[data-theme="dark"] .filter_item[data-color="green"] {
     color: #f9f9f9;
 }
+
+
 .filter_item[data-color="red"] {
     border-color: #ff3a3a;
     color: var(--fontcolor);
@@ -152,6 +200,8 @@ body[data-theme="dark"] .filter_item[data-color="green"] {
 body[data-theme="dark"] .filter_item[data-color="red"] {
     color: #f9f9f9;
 }
+
+
 .filter_item[data-color="black"] {
     border-color: #272727;
     color: var(--fontcolor);

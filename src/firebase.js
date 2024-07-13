@@ -12,13 +12,13 @@ import {getAuth, GoogleAuthProvider, onAuthStateChanged,
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDbEzRit_AgUvWRojvE7RSHs1uGuruLFiU",
-    authDomain: "react-aea93.firebaseapp.com",
-    projectId: "react-aea93",
-    databaseURL: "https://react-aea93-default-rtdb.firebaseio.com/" ,
-    storageBucket: "react-aea93.appspot.com",
-    messagingSenderId:"621201850536",
-    appId: "1:621201850536:web:158192eb52c82295dd029d",
+    apiKey: "AIzaSyBgSDjIF6RnZykUPHLryIgGB0WsqEAyJcM",
+  authDomain: "taskit-dev.firebaseapp.com",
+  projectId: "taskit-dev",
+  databaseURL : "https://taskit-dev-default-rtdb.firebaseio.com/",
+  storageBucket: "taskit-dev.appspot.com",
+  messagingSenderId: "386826932735",
+  appId: "1:386826932735:web:fd1228bb0daefc896e17ca"
 };
 
 // Initialize Firebase

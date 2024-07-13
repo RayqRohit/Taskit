@@ -10,6 +10,7 @@ const CardFooter = ({ tags, id, checked, onChange }) => (
                 {tags.research && <div className={`${Classes.card_tag} bg-blue`} />}
                 {tags.dev && <div className={`${Classes.card_tag} bg-green`} />}
                 {tags.debug && <div className={`${Classes.card_tag} bg-red`} />}
+                {tags.design && <div className={`${Classes.card_tag} bg-yellow`} />}
             </div>
         )}
 

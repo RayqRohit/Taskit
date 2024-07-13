@@ -30,7 +30,7 @@ const Form = ({
             message: '',
         },
     };
-    const initialTags = { research: false, dev: false, debug: false };
+    const initialTags = { research: false, dev: false, debug: false, design: false };
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -230,6 +230,17 @@ const Form = ({
                         }
                     >
                         debug
+                    </CheckBox>
+                    <CheckBox
+                        icon="palette"
+                        color="yellow"
+                        id="design"
+                        checked={tags.design}
+                        onChange={(e) =>
+                            setTags((prevTags) => ({ ...prevTags, design: e.target.checked }))
+                        }
+                    >
+                        design
                     </CheckBox>
                 </Input>
             )}

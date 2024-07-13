@@ -90,6 +90,24 @@ input:hover,
 textarea:hover {
     outline: none;
 }
+.bg-yellow{
+    background-color: #FFFF00;
+}
+
+.bg-yellow-faded{
+    background-color: #FFFF99;
+
+}
+
+.bg-yellow-faded.active,
+.bg-yellow-faded:hover,
+body[data-theme="yellow"] .bg-yellow-faded {
+    background-color: #FFFF00;
+}
+
+.color-yellow {
+    color: #FFFF00;
+}
 
 .bg-blue {
     background-color: #007bec;
