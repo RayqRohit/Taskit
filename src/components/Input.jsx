@@ -15,6 +15,7 @@ const Input = ({
     btnType,
     className,
     background = 'foreground',
+    rows = 7,
 }) => (
     <div className={`${Classes.input} ${className}`}>
         {title && <label htmlFor={id || '#'}>{title}</label>}
@@ -31,6 +32,7 @@ const Input = ({
                         value={value}
                         onChange={onChange}
                         data-info={!!info}
+                        rows={rows} 
                     />
                 ) : (
                     <input

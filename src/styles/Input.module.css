@@ -17,6 +17,8 @@
     overflow: hidden;
 }
 
+
+
 .input_box[data-background="foreground"] {
     background-color: var(--foreground);
 }

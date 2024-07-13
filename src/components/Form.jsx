@@ -191,9 +191,10 @@ const Form = ({
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 info={errors.description.message}
-                className="mt-2"
+                className="mt-2 "
                 background={background}
                 type="textarea"
+                rows={7}
             />
 
             {formType === 'task' && (
