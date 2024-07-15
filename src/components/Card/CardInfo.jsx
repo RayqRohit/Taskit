@@ -33,7 +33,7 @@ const CardInfo = ({ info }) => {
                 },
                 {
                     name : 'work',
-                    icon: 'palette',
+                    icon: 'description',
                     color: 'pink',
                     value: info.work
                 }

@@ -90,6 +90,25 @@ input:hover,
 textarea:hover {
     outline: none;
 }
+
+.bg-pink{
+    background-color: #FF4191;
+}
+
+.bg-pink-faded{
+    background-color: #FF9EAA;
+}
+.bg-pink-faded.active,
+.bg-pink-faded:hover,
+body[data-theme="pink"] .bg-pink-faded {
+    background-color: #FF4191;
+}
+
+.color-yellow {
+    color: #FF4191;
+}
+
+
 .bg-yellow{
     background-color: #FFFF00;
 }

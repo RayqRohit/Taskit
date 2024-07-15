@@ -244,7 +244,7 @@ const Form = ({
                         design
                     </CheckBox>
                     <CheckBox
-                        icon="palette"
+                        icon="description"
                         color="pink"
                         id="work"
                         checked={tags.work}
