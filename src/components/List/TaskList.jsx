@@ -71,6 +71,8 @@ const TaskList = ({ uid, projectId, updateForm, openModal, filter, status, query
                     condition.filter = true;
                 } else if(filter === 'design' && task.tags.design) {
                     condition.filter = true;
+                } else if(filter === 'work' && task.tags.work) {
+                    condition.filter = true;
                 }
                 else {
                     condition.filter = false;

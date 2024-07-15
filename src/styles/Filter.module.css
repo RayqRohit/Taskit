@@ -48,6 +48,47 @@ body[data-theme="dark"] .filter_wrapper::-webkit-scrollbar-thumb:hover {
     border: 1px solid transparent;
 }
 
+
+.filter_item[data-color="pink"] {
+    border-color: #FF4191;
+    color: var(--fontcolor);
+}
+
+.filter_item[data-color="pink"] > div.filter_icon {
+    background-color: #FF4191;
+}
+.filter_item[data-color="pink"] > span.filter_icon {
+    color: #FF4191;
+}
+.filter_item[data-color="pink"]:hover {
+    background-color: #FF4191;
+}
+.filter_item[data-color="pink"]:hover > div.filter_icon {
+    background-color: var(--background);
+}
+.filter_item[data-color="pink"]:hover > span.filter_icon {
+    color: var(--background);
+}
+.filter_item[data-color="pink"][data-active="true"] {
+    background-color: #FF4191;
+    color: #f9f9f9;
+}
+.filter_item[data-color="pink"][data-active="true"] > div.filter_icon {
+    background-color: var(--background);
+}
+.filter_item[data-color="pink"][data-active="true"] > span.filter_icon {
+    color: var(--background);
+}
+.filter_item[data-color="pink"][data-active="true"]:hover {
+    background-color: #FF4191;
+}
+body[data-theme="dark"] .filter_item[data-color="pink"] {
+    color: #f9f9f9;
+}
+
+
+
+
 .filter_item[data-color="yellow"] {
     border-color: #FFFF00;
     color: var(--fontcolor);

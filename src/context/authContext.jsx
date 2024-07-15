@@ -65,7 +65,7 @@ export const AuthProvider = ({ children }) => {
                                         id: 'wellcometask',
                                         description:
                                             'you can note your task detail in the description section. you can add tags to specify your task stage. also you can specify that your task is completed or not',
-                                        tags: { research: true, dev: true, debug: true, design: true },
+                                        tags: { research: true, dev: true, debug: true, design: true, work: true },
                                         isCompleted: true,
                                     },
                                 },

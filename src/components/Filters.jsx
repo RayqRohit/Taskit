@@ -23,6 +23,10 @@ const tags = [
     {
         name : 'design',
         color: 'yellow',
+    },
+    {
+        name : 'work',
+        color : 'pink'
     }
 ];
 

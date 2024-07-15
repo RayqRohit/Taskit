@@ -30,7 +30,7 @@ const Form = ({
             message: '',
         },
     };
-    const initialTags = { research: false, dev: false, debug: false, design: false };
+    const initialTags = { research: false, dev: false, debug: false, design: false, work: false };
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -153,12 +153,12 @@ const Form = ({
         }
 
         // VALIDATE DESCIPTION
-        if (description.trim().length > 300) {
+        if (description.trim().length > 1000) {
             setErrors((prevErrors) => ({
                 ...prevErrors,
                 description: {
                     isError: true,
-                    message: 'description must contain less then 300 character',
+                    message: 'description must contain less then 1000 character',
                 },
             }));
         } else {
@@ -171,7 +171,7 @@ const Form = ({
             }));
         }
 
-        return title.trim().length > 5 && description.trim().length < 300 && submitForm();
+        return title.trim().length > 5 && description.trim().length < 1000 && submitForm();
     };
 
     return (
@@ -242,6 +242,17 @@ const Form = ({
                         }
                     >
                         design
+                    </CheckBox>
+                    <CheckBox
+                        icon="palette"
+                        color="pink"
+                        id="work"
+                        checked={tags.work}
+                        onChange={(e) =>
+                            setTags((prevTags) => ({ ...prevTags, work: e.target.checked }))
+                        }
+                    >
+                        work
                     </CheckBox>
                 </Input>
             )}

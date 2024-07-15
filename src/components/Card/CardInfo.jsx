@@ -30,6 +30,12 @@ const CardInfo = ({ info }) => {
                     icon: 'palette',
                     color: 'yellow',
                     value: info.design,
+                },
+                {
+                    name : 'work',
+                    icon: 'palette',
+                    color: 'pink',
+                    value: info.work
                 }
             ]);
         }
